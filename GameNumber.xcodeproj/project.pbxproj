@@ -14,6 +14,7 @@
 		D931A73823565F27003107EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D931A73723565F27003107EC /* Assets.xcassets */; };
 		D931A73B23565F27003107EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D931A73923565F27003107EC /* LaunchScreen.storyboard */; };
 		D931A746235661CE003107EC /* ThreeByThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931A745235661CE003107EC /* ThreeByThree.swift */; };
+		D9DE3A79235692A7004DD83C /* FourByFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE3A78235692A7004DD83C /* FourByFour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D931A73A23565F27003107EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D931A73C23565F27003107EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D931A745235661CE003107EC /* ThreeByThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeByThree.swift; sourceTree = "<group>"; };
+		D9DE3A78235692A7004DD83C /* FourByFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourByFour.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D931A74223565F39003107EC /* Supporting Files */,
 				D931A73223565F26003107EC /* WelcomeVC.swift */,
 				D931A745235661CE003107EC /* ThreeByThree.swift */,
+				D9DE3A78235692A7004DD83C /* FourByFour.swift */,
 				D931A73423565F26003107EC /* Main.storyboard */,
 				D931A73C23565F27003107EC /* Info.plist */,
 			);
@@ -153,6 +156,7 @@
 				D931A73323565F26003107EC /* WelcomeVC.swift in Sources */,
 				D931A72F23565F26003107EC /* AppDelegate.swift in Sources */,
 				D931A73123565F26003107EC /* SceneDelegate.swift in Sources */,
+				D9DE3A79235692A7004DD83C /* FourByFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,9 @@ class WelcomeVC: UIViewController {
     @IBAction func toThreeByThree(_ sender: AnyObject){
         performSegue(withIdentifier: "welcometo3", sender: self)
     }
+    @IBAction func toFourByFour(_ sender: AnyObject){
+          performSegue(withIdentifier: "welcometo4", sender: self)
+      }
 
 
 }

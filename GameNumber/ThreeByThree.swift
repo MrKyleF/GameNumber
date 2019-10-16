@@ -80,8 +80,11 @@ class ThreeByThree: UIViewController {
         Label5.text = "\(numberLabel5)"
         Label6.text = "\(numberLabel6)"
         textFields[Index1]!.text = "\(numbers[Index1])"
+        textFields[Index1]?.backgroundColor = UIColor.lightGray
         textFields[Index2]!.text = "\(numbers[Index2])"
+        textFields[Index2]?.backgroundColor = UIColor.lightGray
         textFields[Index3]!.text = "\(numbers[Index3])"
+        textFields[Index3]?.backgroundColor = UIColor.lightGray
         
     }
     @IBAction func Checker(_ sender: UIButton) {
